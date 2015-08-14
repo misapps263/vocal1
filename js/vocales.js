@@ -86,6 +86,7 @@ $('#check').css('color','#FF0084');
 $('#check').removeClass('pulse');
 $('#check').addClass('tossing'); 
 $('#check').click(ponletra());
+ playAudio('/android_asset/www/sad.mp3');
 }
 function correcto(){
 $('#check').html('<div class="mensaje">Bieeen!!! <div><small style="font-size:50%;">continuar</small></div>');
@@ -94,4 +95,5 @@ $('#check').css('text-shadow','white');
 $('#check').removeClass('tossing');
 $('#check').addClass('pulse');  
 $('#check').click(ponletra());
+ playAudio('/android_asset/www/tada.mp3');
 }
